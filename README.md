@@ -3,7 +3,6 @@
 </p>
 
 # react-amap
-[![npm package](https://img.shields.io/npm/v/react-amap.svg)](https://www.npmjs.org/package/react-amap)
 
 > react-amap是一套基于React 和高德地图的地图组件。
 
