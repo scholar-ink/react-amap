@@ -1,7 +1,7 @@
 {
-  "name": "react-mobile-calendar",
-  "version": "1.0.6",
-  "description": "> 用react做的用于手机端显示的日历",
+  "name": "react-amap",
+  "version": "0.0.1",
+  "description": ">react amap",
   "main": "lib/index.js",
   "scripts": {
     "dev": "webpack-dev-server --progress --config ./webpack.config.js",
