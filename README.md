@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.rawgit.com/ElemeFE/react-amap/master/src/homepage/assets/images/logo_c.png">
+  <img src="https://cdn.rawgit.com/scholar-ink/react-amap/46f028fa/src/assets/react.jpg">
 </p>
 
 # react-amap
