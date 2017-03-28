@@ -11,9 +11,6 @@
 npm i -S react-mobile-amap
 ```
 
-## 文档
-
-
 ## 快速上手
 
 引入react-amap
@@ -27,7 +24,16 @@ ReactAMap.initAMapLoader({
   // 高德的key
   key: 'YOUR_KEY',
   // 插件集合
-  plugin: ['AMap.Autocomplete', 'AMap.PlaceSearch', 'AMap.Scale', 'AMap.OverView', 'AMap.ToolBar', 'AMap.MapType', 'AMap.PolyEditor', 'AMap.CircleEditor']
+  plugin: [
+    'AMap.Autocomplete',
+    'AMap.PlaceSearch',
+    'AMap.Scale',
+    'AMap.OverView',
+    'AMap.ToolBar',
+    'AMap.MapType',
+    'AMap.PolyEditor',
+    'AMap.CircleEditor'
+  ]
 });
 
 const screen = window.screen.height;
@@ -46,7 +52,7 @@ const parameters = {
       height: screen + 'px'
   },
   scale: {
-    visible: true,
+    visible: false,
   },
   // toolBar: {
   //   visible: true,
@@ -97,3 +103,32 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
+## 文档 （具体参数详见amap官方文档）
+
+```bash
+├── base             # 基本参数
+│ ├── zoom              # 地图显示的缩放级别
+│ ├── center            # 地图中心点坐标值
+├── style            # 地图基本样式
+│ ├── height            # 显示高度 
+├── markers          # 点标记 
+│ ├── icon              # 需在点标记中显示的图标
+│ ├── position          # 点标记在地图上显示的位置
+├── marker           # 点标记相关配置 
+│ ├── fitView           # 是否根据点标记适配view
+├── scale            # 地图比例尺插件
+│ ├── visible           # 是否显示
+├── toolBar          # 地图操作工具条插件）
+│ ├── visible           # 是否显示
+│ ├── locate            # 是否显示定位按钮
+│ ├── autoPosition      # 是否自动定位
+├── onLoad           # 地图加载完成执行
+│ ├── map               # 返回map 对象
+├── onMapMove        # 地图移动结束后触发
+├── onLocationComplete  # 定位成功时触发此事件
+│ ├── data                  # 返回数据格式：GeolocationResult 
+├── onLocationError     # 定位失败时触发此事件
+│ ├── data                  # 返回数据格式：GeolocationError 
+
+```
+
