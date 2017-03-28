@@ -8,7 +8,7 @@
 
 ## 安装
 ```
-npm install -S react-amap
+npm i -S react-mobile-amap
 ```
 
 ## 文档

@@ -1,6 +1,6 @@
 {
   "name": "react-mobile-amap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": ">react amap",
   "main": "lib/index.js",
   "scripts": {
