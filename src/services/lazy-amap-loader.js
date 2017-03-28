@@ -17,7 +17,6 @@ export default class AMapAPILoader {
   constructor(config) {
     this._config = { ...DEFAULT_AMP_CONFIG, ...config };
     
-    console.log(this._config);
     this._document = document;
     this._window = window;
     this._scriptLoaded = false;
