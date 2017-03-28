@@ -1,5 +1,5 @@
 {
-  "name": "react-amap",
+  "name": "react-mobile-amap",
   "version": "0.0.1",
   "description": ">react amap",
   "main": "lib/index.js",
@@ -46,15 +46,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scholar-ink/react-mobile-calendar.git"
+    "url": "git+https://github.com/scholar-ink/react-amap.git"
   },
   "keywords": [
     "react",
-    "calendar",
-    "date-picker"
+    "amap"
   ],
   "bugs": {
-    "url": "https://github.com/scholar-ink/react-mobile-calendar/issues"
+    "url": "https://github.com/scholar-ink/react-amap/issues"
   },
-  "homepage": "https://github.com/scholar-ink/react-mobile-calendar#readme"
+  "homepage": "https://github.com/scholar-ink/react-amap#readme"
 }
