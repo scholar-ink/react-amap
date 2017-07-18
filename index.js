@@ -32,7 +32,7 @@ const parameters = {
     ],
   },
   style: {
-      height: screen + 'px'
+      height: screen-90 + 'px'
   },
   scale: {
     visible: true,
